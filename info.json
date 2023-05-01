@@ -3,13 +3,11 @@
 	"logo" : " ",
 		"about" : " ",
 	"menu" : {
-
-		"OVERVIEW" : "https://docs.google.com/document/d/1tyN9xGa0zU0isVc0ZM9OpAtfzHxYjzmhfmUYsPfgjp0/edit",
-        " " : "",
-		"WEEK 1" : "https://docs.google.com/document/d/1Y5ErH42Vj7gVgnpDhi0jDd-LaL1Fp8oeMB2jz8oYlk8/edit",
-		"WEEK 2" : "https://docs.google.com/document/d/1qRUcMeeBig_-yCaayUIRmDm8yw5N3JXburfJXDGPLik/edit",
-    	"WEEK 3" : "https://docs.google.com/document/d/1F-1EwqVXhdcj7zpEJd1yzZspsKV0TFvPJQOJ4wwcwjU/edit",
-		"WEEK 4" : "https://docs.google.com/document/d/1jsWiAu01NS1mBX-F2bcrR1zNuN9ThDdjMgR9u1ylifM/edit",
-		"WEEK 5" : "https://docs.google.com/document/d/1YBrOjUsoxFaVUWzO779vsoCJvgXkXCfEf4HOEfk7Ms0/edit"
+		"Overview" : "https://docs.google.com/document/d/1tyN9xGa0zU0isVc0ZM9OpAtfzHxYjzmhfmUYsPfgjp0/edit",
+		"Week 1: Images of control" : "https://docs.google.com/document/d/1Y5ErH42Vj7gVgnpDhi0jDd-LaL1Fp8oeMB2jz8oYlk8/edit",
+		"Week 2" : "https://docs.google.com/document/d/1qRUcMeeBig_-yCaayUIRmDm8yw5N3JXburfJXDGPLik/edit",
+    	"Week 3" : "https://docs.google.com/document/d/1F-1EwqVXhdcj7zpEJd1yzZspsKV0TFvPJQOJ4wwcwjU/edit",
+		"Week 4" : "https://docs.google.com/document/d/1jsWiAu01NS1mBX-F2bcrR1zNuN9ThDdjMgR9u1ylifM/edit",
+		"Wekk 5" : "https://docs.google.com/document/d/1YBrOjUsoxFaVUWzO779vsoCJvgXkXCfEf4HOEfk7Ms0/edit"
     }
 }

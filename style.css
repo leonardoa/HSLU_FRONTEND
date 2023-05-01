@@ -35,20 +35,20 @@ body {
 
 #menu {
 	position: fixed;
-	left: 10px;
-	bottom: 10%;
+	left: 30px;
+	bottom: 20px;
 	color: white;
 	letter-spacing: .01em;
 	z-index:10;
-	padding: 13px;
-	padding-right: 15px;
-	font: 15px/20px monospace;
+	padding: 10px 40px 10px 10px;
+	font: 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: -0.3px;
 	cursor: move;
-	    box-shadow: #eee 1px 1px 1px;
-	border-style: double;
-	border-color: red;
+	box-shadow: #eee 1px 1px 1px;
 	background-color: #fff;
+	background-color: rgba(0, 0, 0, 1);
+	border-radius:5px;
+	color: white;
 }
 
 #logo {
@@ -97,10 +97,10 @@ body {
 	padding: 1px;
 }
 #navigation a.active{
-	color: #000;
+	color: #fff;
 }
 #navigation a:hover{
-	color: #000;
+	color: #fff;
 }
 #navigation .current_page_item a {
 	color: red;
@@ -185,18 +185,16 @@ body {
 		left: 2px;
         right: 2px;
 		top: 2px;
+		height: 13px;
+		overflow: hidden;
+		width: 30px;
 	}
-	#logo{
-        display: none;
-	}
-    #logo-touch {
-        display: block;
-    }
+
+
 	#navigation{
-		display: none;
-		text-indent: -1.5em;
+		/* text-indent: -1.5em;
 		margin-left:1.5em;
-		margin-top: 20px;
+		margin-top: 20px; */
 	}
 	#menu-open{
 		width: 30px;
@@ -204,10 +202,9 @@ body {
 		cursor: pointer;
 	}
 	#menu-open div {
-	    background-color: black;
-	    border: 1px solid black;
-	    border-radius: 2px 2px 2px 2px;
-	    height: 15%;
+	    background-color: white;
+	    border: 0px solid white;
+	    height: 1px;
 	    margin-bottom: 15%;
 	    width: 90%;
 	}
@@ -215,5 +212,19 @@ body {
 		width: auto;
 		display: none;
 	}
+
+	#menu.open {
+		height: 50%;
+		width: 95%
+	}
+
+	#navigation.open {
+		display: block !important;
+	}
 }
 /* @end */
+
+a {
+    color: rgb(120,120,120);
+	text-decoration: none;	
+} 
