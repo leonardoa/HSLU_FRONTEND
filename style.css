@@ -78,6 +78,13 @@ body {
     transform: rotate(-27deg);
 }
 
+#menu-open {
+	display: none;
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+}
+
 #navigation {
 	margin: 0;
 	padding:0;
@@ -185,9 +192,9 @@ body {
 		left: 2px;
         right: 2px;
 		top: 2px;
-		height: 13px;
+		height: 20px;
 		overflow: hidden;
-		width: 30px;
+		width: 40px;
 	}
 
 
@@ -200,6 +207,7 @@ body {
 		width: 30px;
 		height: 35px;
 		cursor: pointer;
+		display: block;
 	}
 	#menu-open div {
 	    background-color: white;
@@ -214,7 +222,7 @@ body {
 	}
 
 	#menu.open {
-		height: 50%;
+		height: 30%;
 		width: 50%
 	}
 
