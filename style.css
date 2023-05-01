@@ -203,8 +203,8 @@ body {
 	}
 	#menu-open div {
 	    background-color: white;
-	    border: 0px solid white;
-	    height: 1px;
+	    border-top: 1px solid white;
+	    height: 0px;
 	    margin-bottom: 15%;
 	    width: 90%;
 	}
@@ -215,7 +215,7 @@ body {
 
 	#menu.open {
 		height: 50%;
-		width: 95%
+		width: 50%
 	}
 
 	#navigation.open {
